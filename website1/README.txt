@@ -78,3 +78,9 @@ Step7: Get fobonacci array
 
     positive number is only allowed, the maximum value is 5000. you can modify the maximum limitation by edit fibonacciArray.py
     in fibonacci folder.
+
+===========================================
+Step8: How to run regression test
+===========================================
+    run test suite in Test folder which contains necessary test cases, in order to avoid regression
+    # Python TestSuite.py
