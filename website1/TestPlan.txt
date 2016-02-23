@@ -1,0 +1,22 @@
+[Function test]
+1. ensure customer can get a fibonacci array if input a common positive number: like http http://127.0.0.1:8000/fibonacci/50
+2. ensure customer can get a fibonacci array if he only want to get first 1 and/or 2 number, which is the head of fobinacci array
+
+[boundary test]
+1. ensure customer can get a meaningful error message if input a number zero
+2. ensure maximum number the program can support, it's 5000 in current code
+
+[Robustness test]
+1. negative integer is not allowed, customer can get a meaningful error message
+2. float, string or other types are not supported, customer can get a meaningful error message
+3. an integer bigger than maximum is not allowed
+
+[performance test]
+1. ensure customer can get response in expected range
+
+[concurrent test]
+1. ensure the program works if there are hundreds of requests at same time
+
+[security]
+1. ensure any input won't affect data structure in server side. for this case it's safe because we don't use database
+2. ensure any request never affect each other, it's thread safe
