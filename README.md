@@ -16,9 +16,9 @@ A REST API to return Fibonacci string
 2. How to run the script
     send http request to your webservice director:
     
-    http <service service IP>/fibonacci/<integer>
+    http http://service service IP/fibonacci/INTEGER
 
-    integer number here is the length of fibonacci array you want to query
+    INTEGER number here is the length of fibonacci array you want to query
 
 3. How to test it
     all test cases are in Test suite, it's easy to run TestSuite.py for the test:
