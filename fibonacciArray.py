@@ -37,7 +37,7 @@ class FibonacciArray:
 
     def __get_fibonacci_string(self, number):
         status =0
-        first_number = 1
+        first_number = 0
         second_number = 1
         fobinacci_string = str(first_number) + " " + str(second_number)
 
@@ -54,7 +54,7 @@ class FibonacciArray:
             first_number = second_number
             second_number = new_number
 
-            fobinacci_string = str(fobinacci_string) + " " + str(new_number) + "hehe" + str(self.current_index.value)
+            fobinacci_string = str(fobinacci_string) + " " + str(new_number)
             index += 1
 
             #Add the value into share Array
