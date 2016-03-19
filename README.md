@@ -14,7 +14,7 @@ A REST API to return Fibonacci string
     ########################################
 
 2. How to run the script
-    send http request to your webservice director:
+    send http request to your webservice directly:
     
     http http://service service IP/fibonacci/INTEGER
 
