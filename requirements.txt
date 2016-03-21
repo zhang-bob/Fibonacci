@@ -1,0 +1,4 @@
+1. The file includes all dependent packages to run the web service and test scripts:
+    1.1. pip
+    1.2. django
+    1.3. httpie
